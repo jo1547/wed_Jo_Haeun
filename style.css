@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 1200px;
+    margin : 20px auto;
+}
+#header{
+    width : 100%;
+    height : 120px;
+    background-color: rgb(250, 242, 242);
+    border-style: dashed;
+    border-color: rgb(185, 184, 184);
+}
+＃logo {
+    width: 1200px;
+    height:100px;
+}
+#logo h1{
+    font-family: 'Moirai One', cursive;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.5em;
+    padding-top: 20px;
+}
+
+#sidebar{
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    float:left;
+    
+}
+#contents{
+    width: 700px;
+    height: 350px;
+    background-color: rgb(249, 248, 248);
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#snsLinks{
+    width:700px;
+    height: 350px;
+    background-color: rgb(249, 248, 248);
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(246, 242, 238);
+    border-style: dashed;
+    border-color: rgb(183, 182, 182);
+    clear : left
+}
+#last h1{
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: right;
+    color: rgb(157, 157, 158);
+    letter-spacing: 0.5em;
+    padding-top: 30px;
+}
+#image img{
+   width: 400px;
+   height: 400px;
+   margin: 50px 50px 5px 50px;
+   position: relative;
+}
+#sidebar h3{
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color :rgb(179, 152, 152)
+}
+
+#introduction >ul>li{
+    list-style-type: none;
+    font-family: 'Poor Story', cursive;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 15px;
+    line-height: 1.5;
+    left : 10px;
+}
+
+#contents h2{
+    font-family: 'Poor Story', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(93, 93, 93);
+}
+#snsLinks h2{
+    font-family: 'Poor Story', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(93, 93, 93);
+}
+#links {
+    float: right;
+    width: 700px;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#links ul{
+    padding: 0;
+    overflow: hidden;
+}
+#links ul li{
+    list-style-type: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin : 10px 0;
+}
+#snslinks {
+    float: right;
+    width: 700px;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#snslinks ul li{
+    list-style-type: none;
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin : 10px 0;
+}
+#snslinks ul li a span{
+    display: block;
+    margin: 0 auto;
+    width:150px;
+    height:150px;
+    border-radius: 100%;
+    border: 1px solid #ddd;
+    line-height: 150px;
+}
+#quick-icon1{
+    background-image: url('instargram.jpg');
+    background-size: 150px 150px;
+}
+#quick-icon2{
+    background-image: url('blog.jpg');
+    background-size: 150px 150px;
+}
+#snslinks ul li a p{
+    font-family: 'Poor Story', cursive;
+    margin-top: 15px;
+    font-weight: 500;
+
+}
+
+#hobby{
+    list-style-type: none;
+    font-family: 'Poor Story', cursive;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 15px;
+    line-height: 1.5;
+    left : 10px;
+    text-align: center;
+}
+.hobby-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobby-img img {
+    max-width: 25%;
+    max-height: 25%;
+}
+.drama-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.drama-img img {
+    max-width: 50%;
+    max-height: 50%;
+}
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .food-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-img img {
+    max-width: 27%;
+    max-height: 27%;
+}
